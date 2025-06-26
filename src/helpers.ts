@@ -9,7 +9,7 @@ export function getKubectlArch(): string {
   return arch
 }
 
-export function getKubectlDownloadURL(version: string, arch: string): string {
+export function getkubectlDownloadURL(version: string, arch: string): string {
   const base = 'https://storage.googleapis.com/kubernetes-release'
   switch (os.type()) {
     case 'Linux':

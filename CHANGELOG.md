@@ -1,5 +1,9 @@
 # Changelog
 
+## [4.0.2] - 2025-06-26
+
+- Fix typo
+
 ## [4.0.1] - 2025-06-17
 
 - Remove erronious 'v' prefix on previous changelog for v4.0.0 that led to "vv4.0.0" tag issue
