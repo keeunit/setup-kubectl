@@ -1,5 +1,9 @@
 # Changelog
 
+## [4.0.4] - 2025-06-26
+
+- Prefer ipv6 for downloads
+
 ## [4.0.3] - 2025-06-26
 
 - Add error logging
