@@ -54,9 +54,9 @@ export async function downloadKubectl(version: string): Promise<string> {
    const arch = getKubectlArch()
    if (!cachedToolpath) {
       try {
-         kubectlDownloadPath = await toolCache.downloadTool(
-            getkubectlDownloadURL(version, arch)
-         )
+         const downloadUrl = getkubectlDownloadURL(version, arch)
+         core.info('Downloading from ' + downloadUrl);
+         kubectlDownloadPath = await toolCache.downloadTool(downloadUrl)
       } catch (exception) {
          if (
             exception instanceof toolCache.HTTPError &&
@@ -70,7 +70,7 @@ export async function downloadKubectl(version: string): Promise<string> {
                )
             )
          } else {
-            throw new Error('DownloadKubectlFailed')
+            throw exception
          }
       }
 

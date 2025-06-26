@@ -1,5 +1,9 @@
 # Changelog
 
+## [4.0.3] - 2025-06-26
+
+- Add error logging
+
 ## [4.0.2] - 2025-06-26
 
 - Fix typo
