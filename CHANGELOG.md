@@ -1,5 +1,10 @@
 # Changelog
 
+## [4.0.5] - 2025-06-26
+
+- Prefer ipv6 for downloads #2
+
+
 ## [4.0.4] - 2025-06-26
 
 - Prefer ipv6 for downloads
