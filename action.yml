@@ -1,4 +1,4 @@
-name: 'Kubectl tool installer'
+name: 'Kubectl tool installer (storage.googleapis.com based)'
 description: 'Install a specific version of kubectl binary. Acceptable values are latest or any semantic version string like 1.15.0'
 inputs:
    version:
